@@ -6,18 +6,19 @@
 }
 
 body { 
-    background: #2f92b9;
+    background: #464646;
 }
 
 .card {
     width: 90%;
     max-width: 470px;
-    background: linear-gradient(135deg, #00feba, #5b548a);
+    background: linear-gradient(1deg, #a5a5a5, #0066ff);
     color: #fff;
     margin: 100px auto 0;
     border-radius: 20px;
     padding: 40px 35px;
     text-align: center;
+    box-shadow: 0px 0px 20px 0px #161616;
 }
 
 .search {
@@ -37,7 +38,7 @@ body {
     border-radius: 30px;
     flex: 1;
     margin-right: 16px;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .search button {
@@ -92,4 +93,16 @@ body {
 .humidity, .wind {
     font-size: 28px;
     margin-top: -6px;
+}
+
+.weather {
+    display: none;
+}
+
+.error {
+    text-align: left;
+    margin-left: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+    display: none;
 }
