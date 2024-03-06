@@ -20,19 +20,19 @@ async function checkWeather(city) {
         document.querySelector(".wind").innerHTML = data.wind.speed + " mph";
 
         if(data.weather[0].main == "Clouds"){
-            weathericon.src = "icons/clouds.png";
+            weathericon.src = "https://raw.githubusercontent.com/Arman-Markaryan/Portfolio-Img-Hosting/main/icons/clouds.png";
         }
         else if(data.weather[0].main == "Clear"){
-            weathericon.src = "icons/clear.png";
+            weathericon.src = "https://raw.githubusercontent.com/Arman-Markaryan/Portfolio-Img-Hosting/main/icons/clear.png";
         }
         else if(data.weather[0].main == "Rain"){
-            weathericon.src = "icons/rain.png";
+            weathericon.src = "https://raw.githubusercontent.com/Arman-Markaryan/Portfolio-Img-Hosting/main/icons/rain.png";
         }
         else if(data.weather[0].main == "Drizzle"){
-            weathericon.src = "icons/drizzle.png";
+            weathericon.src = "https://raw.githubusercontent.com/Arman-Markaryan/Portfolio-Img-Hosting/main/icons/drizzle.png";
         }
         else if(data.weather[0].main == "Mist"){
-            weathericon.src = "icons/mist.png";
+            weathericon.src = "https://raw.githubusercontent.com/Arman-Markaryan/Portfolio-Img-Hosting/main/icons/mist.png";
         }
 
         document.querySelector(".weather").style.display = "block"  
